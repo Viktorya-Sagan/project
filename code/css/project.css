@@ -1,0 +1,817 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+body, h1, h2, h3, h4, p{
+  margin: 0;
+}
+.header{
+	background-image: url(../photos/hero.png);
+	background-repeat: no-repeat; 
+}
+.flex-row{
+	width: 100%;
+	display: flex;
+	align-content: flex-start;
+	flex-wrap: wrap;
+	padding-top: 3%;
+}
+.first{
+	width: 100%;
+	padding: 0 11.5% 0 11.5%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu-list{
+	width: 65%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.menu-list__link{
+	text-decoration: none;
+	color: white;
+	font: 700 14px/19.07px Open Sans;
+}
+.menu-list__phone{
+	
+}
+.phone-holder{
+	padding-bottom: 1px;
+}
+.phone-text {
+    font: 400 14px/19.07px Open Sans;
+    color: #ffffff;
+}
+.phone-holder {
+	display: flex;
+	align-items: center;
+}
+.number{
+	padding-left: 8px;
+}
+.num{
+	text-decoration: none;
+	color: #ffffff;
+	font: 700 18px/24.51px Open Sans;
+
+}
+.burger-icon{
+	display: none;
+}
+.button{
+	background: rgb(255, 116, 0);
+	border: none;
+	color: rgb(255, 255, 255);
+	font: 700 14px/19.07px Open Sans;
+	width: 160px;
+	height: 47px;
+}
+
+.title{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 204px;
+	margin-left: 11.5%;
+	max-width: 38.6%;
+	text-align: center;
+}
+.title__h1{
+	font: 400 50px/57.5px Tinos;
+	color: rgba(214, 126, 53, 1);	
+}
+.title__h1-span{
+	color: rgba(214, 126, 53, 1);
+	font: 400 80px/91.99px Tinos;
+}
+.title-paragraph__p{
+	color: rgba(255, 255, 255, 1);
+	font: 400 18px/24.51px Open Sans;
+	padding-left: 9px;
+	padding-right: 9px;
+	padding-bottom: 21px;
+}
+.title-paragraph{
+	display: flex;
+	padding-top: 12px;
+}
+hr{
+	border: none;
+	width: 61px;
+	height: 2px;
+	background-color: rgb(255, 255, 255);
+
+}
+.card-row{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	margin-top: 9%;
+	padding: 0 11.5% 0 11.5%;
+}
+.card{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 31%;
+	height: 128.62%;
+	background-color: rgba(255, 255, 255, 1);
+	text-align: center;
+	box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+
+}
+.card-dish{
+	padding-top: 3.3%;
+}
+.card-dish-title{
+	font: 400 26px/29.9px Tinos;
+	color: rgba(44, 44, 44, 1);
+	padding-top: 4px;
+	padding-bottom: 20px;
+}
+.card-dish-text{
+	font: 400 26px/29.9px Tinos;
+	color: rgba(101, 99, 99, 1);
+	
+}
+.about{
+	display: flex;
+	width: 100%;
+	margin-top: 371px;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.history{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	padding: 0 11.5% 0 11.5%;
+	
+}
+.history-text-block{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 444px;
+	text-align: center;
+	
+}
+.history-text-block__p{
+	font: 400 54px/62.09px Tinos;
+	font-weight: normal;
+	color: rgba(0, 0, 0, 1);
+}
+.p-span{
+	color: rgba(214, 126, 52, 1);
+}
+.history-text-block-paragraph{
+	font: 400 16px/21.79px Open Sans;
+	color: rgba(101, 99, 99, 1);
+	padding-top: 21px;
+}
+.row-numbers{
+	width: 100%;
+	max-width: 300px;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 83px;
+}
+.numder{
+	font: 400 40px/54.47px Open Sans;
+	color: rgba(214, 126, 52, 1);
+}
+.numder-text{
+	font: 400 20px/27.24px Open Sans;
+	color: rgba(0, 0, 0, 1);
+}
+.history-photo{
+	width: 100%;
+	height: auto;
+}
+.order{
+	display: flex;
+	justify-content: space-between;
+	background-image: url(../photos/bg.png);
+	background-size: cover;
+	height: 357px;
+	background-repeat: no-repeat; 
+	margin-top: 120px;
+	width: 100%;
+	padding: 0 11.5% 0 11.5%;
+	align-items: center;
+}
+.order-text-block{
+	max-width: 601px;
+}
+.order-text-block__p1{
+	font: 400 52px/59.79px Tinos;
+	color: rgba(214, 126, 52, 1);
+}
+.order-text-block__p2{
+	font: 700 24px/32.68px Open Sans;
+	color: rgba(255, 255, 255, 1);
+	padding-top: 20px;
+}
+.our-dishes{
+	margin-top: 132px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 150px;
+	flex-wrap: wrap;
+}
+
+.our-dishes-title__p{
+	font: 400 54px/62.09px Tinos;
+	color: rgba(0, 0, 0, 1);
+}
+
+.our-dishes-pizza{
+   width: 445px;
+	height: auto;
+}
+.our-dishes-photos-coll__burger{
+    width: 160px;
+	height: auto;
+}
+.our-dishes-photos-coll{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+    gap: 29px;
+	padding-left: 29px;
+}
+.price-title{
+	font: 400 26px/29.9px Tinos;
+	color: rgba(0, 0, 0, 1);
+	padding-right: 7px;
+}
+.price-number{
+	font: 400 26px/29.9px Tinos;
+	color: rgba(0, 0, 0, 1);
+	padding-left: 11px;
+}
+.our-dishes-burger{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.our-dishes-price-block{
+	display: flex;
+	padding-top: 139px;
+	align-items: center;
+}
+.price{
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+.line{
+	height: 2px;
+	width: 43.97%;
+}
+.price-coll{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding-left: 30px;
+}
+.price-coll-2{
+	padding-top: 134px;
+}
+.our-menu{
+	display: flex;
+	background-image: url(../photos/back.png);
+	background-size: cover;
+	height: 1036px;
+	background-repeat: no-repeat; 
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+}
+.our-menu-title{
+	padding-top: 100px;
+	padding-bottom: 138px;
+}
+.our-menu-title__p{
+	font: 400 54px/62.09px Tinos;
+	color: rgba(255, 255, 255, 1);
+	text-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
+	
+}
+.menu-card-row{
+	display: flex;
+	width: 77%;
+	justify-content: space-between;
+}
+.menu-card{
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(255, 255, 255, 1);
+	width: 350px;
+	height: 510px;
+	align-items: center;
+	text-align: center;
+	padding-bottom: 29px;
+	justify-content: end;
+}
+.menu-card__img{
+	width: 225px;
+	
+}
+.menu-card-photo{
+	display: flex;
+	align-items: flex-end;
+	justify-content: end;
+	
+}
+.menu-card__img{
+	border-radius: 50%;
+	
+}
+.menu-card__num{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: rgba(214, 126, 52, 1);
+	border: 5px;
+	border-color: #ffffff;
+	
+}
+.menu-card__p1{
+	font: 400 26px/29.9px Tinos;
+	color: rgba(0, 0, 0, 1);
+	padding-top: 22px;
+}
+.menu-card__p2{
+	font: 400 16px/21.79px Open Sans;
+	color: rgba(0, 0, 0, 1);
+	padding-bottom: 20px;
+	padding-top: 17px;
+}
+.menu-card__button{
+	border: none;
+	background-color: rgba(214, 126, 52, 1);
+	color: rgba(255, 255, 255, 1);
+	font: 700 16px/21.79px Open Sans;
+	width: 220px;
+	height: 50px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+}
+.visitors{
+	background-color: rgba(229, 229, 229, 1);
+	width: 100%;
+	height: 550px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.visitors-text-block{
+	font-family: Open Sans;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 27px;
+	letter-spacing: 0em;
+	text-align: center;
+	max-width: 920px;
+	padding-top: 104px;
+	padding-bottom: 27px;
+
+}
+.visitors-visitor-status{
+	font-family: Open Sans;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 27px;
+	letter-spacing: 0em;
+	text-align: left;
+	padding-top: 16px;
+	padding-bottom: 9px;
+}
+.visitors-visitor-name{
+	font-family: Open Sans;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 27px;
+	letter-spacing: 0em;
+	text-align: left;
+
+}
+.dishes-gallery{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 11.5% 0 11.5%;
+	justify-content: flex-start;
+}
+.dishes-gallery-photo-block-1{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	gap: 30px;
+}
+.dishes-gallery-photo-block-2{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	padding-top: 30px;
+	gap: 30px;
+}
+.dishes-gallery-title{
+	font-family: Tinos;
+	font-size: 54px;
+	font-weight: 400;
+	line-height: 62px;
+	letter-spacing: 0em;
+	text-align: left;
+	padding-top: 101px;
+	padding-bottom: 60px;
+
+}
+.dishes-gallery__img{
+	width: 100%;
+	height: auto;
+}
+.our-cookers{
+	display: flex;
+    padding: 0 11.5% 0 11.5%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.our-cookers-photo-block__img{
+	width: 100%;
+	height: auto;
+}
+.our-cookers-photo-block{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+.footer{
+	display: flex;
+	background-image: url(./photos/footer.png);
+	background-size: cover;
+	height: 732px;
+	background-repeat: no-repeat; 
+}
+@media (max-width: 1300px){
+	.flex-row{
+		justify-content: center;
+		padding-top: 3%;
+	}
+	.title{
+		margin-left: 0;
+	}
+	.menu-list{
+		display: none;
+	}
+	.burger-icon{
+		display: flex;
+		height: 17.75px;
+		width: 30.875px;
+	}
+	.card-row{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-top: 9%;
+		
+	}
+	.card{
+		width: 100%;
+		height: 128.62%;
+	    padding-bottom: 3%;
+		margin-top: 20px;
+		padding: 20px;
+	}
+	.history{
+		flex-direction: column;
+		align-items: center;
+	}
+	.history-photo{
+		padding-top: 40px;
+	}
+	.about{
+		margin-top: 10%;
+		justify-content: center;
+		
+	}
+	.dishes-gallery-photo-block-1{
+		display: flex;
+		width: 100%;
+		gap: 20px;
+		
+	}
+	.dishes-gallery-photo-block-2{
+		display: flex;
+		width: 100%;
+		gap: 20px;
+		padding-top: 20px;
+	}
+	.menu-card-row{
+		justify-content: center;
+	}
+	.menu-card:nth-of-type(2){
+		display: none;
+	}
+	.menu-card:nth-of-type(3){
+		display: none;
+	}
+	.our-dishes{
+		margin-top: 132px;
+		margin-bottom: 150px;
+	}
+	.our-cookers-photo-block{
+		gap: 20px;
+	}
+	.our-dishes-price-block{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.price-coll{
+		width: 100%;
+		padding-left: 30px;
+	}
+	.price-coll-2{
+		padding-top: 134px;
+	}
+	hr{
+		display: none;
+	};
+}
+@media (max-width: 700px){
+	.first{
+		padding: 0 6% 0 6%;
+	}
+	
+	.title{
+		margin-top: 150px;
+		margin-bottom: 202px;
+		margin-left: 0%;
+		max-width: 86%;
+	}
+	.title__h1{
+		font: 400 30px/34.5px Tinos;
+	}
+	.title__h1-span{
+		font: 400 40px/46px Tinos;
+	}
+	.title-paragraph__p{
+		font: 400 15px/20.43px Open Sans;
+	}
+	.title-paragraph{
+		display: flex;
+	}
+	.card{
+		width: 250px;
+		height: 276px;
+	}
+	.card-dish{
+		padding-top: 3.3%;
+	}
+	.card-dish-title{
+		font: 400 26px/29.9px Tinos;
+		padding-top: 4px;
+		padding-bottom: 20px;
+	}
+	.card-dish-text{
+		font: 400 22px/25.3px Tinos;
+	}
+	.history-text-block{
+		max-width: 444px;
+	}
+	.history{
+	padding-top: 75px;
+}
+	.history-text-block__p{
+		font: 400 54px/62.09px Tinos;
+		font-weight: normal;
+	}
+	.history-text-block-paragraph{
+		font: 400 16px/21.79px Open Sans;
+		padding-top: 21px;
+	}
+	.row-numbers{
+		flex-direction: column;
+		padding-top: 83px;
+	}
+	.row-numbers-item{
+		display: flex;
+		flex-direction: column;
+	}
+	.numder{
+		font: 400 40px/54.47px Open Sans;
+	}
+	.numder-text{
+		font: 400 20px/27.24px Open Sans;
+		padding-top: 2px;
+		padding-bottom: 51px;
+	}
+	.order{
+		justify-content: center;
+		flex-direction: column;
+		margin-top: 120px;
+		text-align: center;
+	}
+	.order-text-block{
+		padding-top: 20px;
+	}
+	.order-text-block__p1{
+		font: 400 30px/34.5px Tinos;
+		color: rgba(214, 126, 52, 1);
+	}
+	.order-text-block__p2{
+		font: 700 24px/32.68px Open Sans;
+		color: rgba(255, 255, 255, 1);
+		padding-top: 20px;
+		padding-bottom: 41px;
+	}
+	.button-order{
+		padding-bottom: 30px;
+	}
+	.our-dishes{
+		margin-top: 132px;
+	}
+	.our-dishes-title{
+		text-align: center;
+	}
+	.our-dishes-title__p{
+		font: 400 40px/62.09px Tinos;
+	}
+	
+	.our-dishes-pizza{
+		height: auto;
+	}
+	.our-dishes-photos-coll__burger{
+		width: 130px;
+		height: 113.7px;
+	}
+	.our-dishes-photos-coll{
+		flex-direction: column;
+		justify-content: space-between;
+		gap: 87px;
+	}
+	.our-dishes-burger{
+		width: 320px;
+		padding-top: 20px;
+	}
+	.price-title{
+		font: 400 22px/29.9px Tinos;
+	}
+	.price-number{
+		font: 400 26px/29.9px Tinos;
+	}
+	.our-dishes-price-block{
+		padding-top: 139px;
+	}
+	.price{
+		align-items: center;
+		text-align: center;
+		flex-direction: column;
+	}
+	.line{
+		display: none;
+	}
+	
+	.our-menu-title{
+		padding-top: 100px;
+		padding-bottom: 138px;
+	}
+	.our-menu-title__p{
+		font: 400 54px/62.09px Tinos;
+	}
+	.menu-card{
+		width: 350px;
+		height: 510px;
+		padding-bottom: 29px;
+		justify-content: end;
+	}
+	.menu-card__img{
+		width: 225px;
+		
+	}
+	.menu-card-photo{
+		display: flex;
+		align-items: flex-end;
+		justify-content: end;
+		
+	}
+	.menu-card__img{
+		border-radius: 50%;
+		
+	}
+	
+	.menu-card__p1{
+		font: 400 26px/29.9px Tinos;
+		padding-top: 22px;
+	}
+	.menu-card__p2{
+		font: 400 16px/21.79px Open Sans;
+		padding-bottom: 20px;
+		padding-top: 17px;
+	}
+	.menu-card__button{
+		font: 700 16px/21.79px Open Sans;
+		width: 220px;
+		height: 50px;
+	}
+	.visitors-text-block{
+		font-family: Open Sans;
+		font-size: 20px;
+		font-style: italic;
+		font-weight: 400;
+		line-height: 27px;
+		letter-spacing: 0em;
+		text-align: center;
+		max-width: 290px;
+		padding-top: 11px;
+		padding-bottom: 29px;
+	
+	}
+	.visitors-visitor-status{
+		font-family: Open Sans;
+		font-size: 20px;
+		font-weight: 600;
+		line-height: 27px;
+		letter-spacing: 0em;
+		text-align: left;
+		padding-top: 4px;
+		padding-bottom: 5px;
+	}
+	.visitors-visitor-name{
+		font-family: Open Sans;
+		font-size: 20px;
+		font-weight: 400;
+		line-height: 27px;
+		letter-spacing: 0em;
+		text-align: left;
+	}
+	.dishes-gallery{
+		flex-direction: column;
+		align-items: center;
+		padding: 0 6% 0 6%;
+		justify-content: center;
+	}
+	.dishes-gallery-photo-block-1{
+		flex-direction: column;
+		width: 100%;
+		align-items: center;
+		gap: 30px;
+	}
+	.dishes-gallery-photo-block-2{
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		justify-content: space-between;
+		padding-top: 30px;
+		gap: 30px;
+	}
+	.dishes-gallery-title{
+		font-family: Tinos;
+		font-size: 40px;
+		font-weight: 400;
+		line-height: 46px;
+		letter-spacing: 0em;
+		text-align: left;
+		padding-top: 101px;
+		padding-bottom: 60px;
+		max-width: 145px;
+		text-align: center;
+	
+	}
+	.dishes-gallery__img{
+		width: 290px;;
+		height: 274px;
+	}
+	.dishes-gallery-photo-block-1__photo{
+		display: none;
+	}
+	.our-cookers{
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+	    margin-top: 0px;
+	    margin-bottom: 21px;
+	}
+	.our-cookers-photo-block__img{
+		height: 380px;
+		width: 287.8787841796875px;
+
+	}
+	.our-cookers-photo-block{
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		justify-content: space-between;
+	}
+}
+
+
